@@ -16,9 +16,9 @@ This application is designed to work as a reservation system for restaurants. Th
 
 
 ### Frontend:
-*JavaScript
-*React
-*React Hooks
-*React router
-*HTML
-*CSS
+* JavaScript
+* React
+* React Hooks
+* React router
+* HTML
+* CSS
