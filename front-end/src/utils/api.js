@@ -6,7 +6,7 @@ import formatReservationDate from "./format-reservation-date";
 import formatReservationTime from "./format-reservation-time";
 
 const API_BASE_URL =
-  process.env.REACT_APP_API_BASE_URL || "http://localhost:5001";
+  process.env.REACT_APP_API_BASE_URL || "https://restaurant-reservation-backend-im6d.onrender.com/";
   // process.env.REACT_APP_API_BASE_URL || "https://periodic-tables-backend-dw.herokuapp.com"
 
 /**
