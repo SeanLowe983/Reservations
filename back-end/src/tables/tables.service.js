@@ -6,7 +6,7 @@ function create(table) {
   return knex(tableName)
     .insert(table)
     .returning("*")
-    .then((created) => created[0]);
+    .then((table) => table[0]);
 }
 
 function read(table_id) {
