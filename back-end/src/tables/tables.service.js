@@ -5,7 +5,8 @@ const tableName = "tables";
 function create(table) {
   return knex(tableName)
     .insert(table)
-    .returning("*");
+    .returning("*")
+    .then((created) => created[0]);
 }
 
 function read(table_id) {
